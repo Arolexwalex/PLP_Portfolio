@@ -1,0 +1,186 @@
+@media screen and (max-width: 1400px) {
+  #home {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-sesction {
+    flex-wrap: wrap;
+  }
+  #projects {
+    height: fit content;
+  }
+
+  .experience_heading {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -450px;
+    background: linear-gradient(180deg, #5badff 0%, #1373d1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .experience-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 65%;
+    padding: 30px 0;
+    font-family: poppins;
+    color: white;
+  }
+
+  #projects {
+    margin: auto;
+    align-items: center;
+  }
+
+  .exp {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.4937px;
+    display: flex;
+    margin: auto;
+    width: 65%;
+    align-items: center;
+    color: #8491a0;
+  }
+
+  .exp-time {
+    color: #8491a0;
+    font-size: 12px;
+  }
+
+  #contact {
+    background: #191919;
+    margin-top: 100px;
+  }
+  #footer {
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+  }
+
+  .whatsapp_logo {
+    width: 17px;
+    height: 16px;
+  }
+
+  .footer-img {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    /* float: left; */
+    width: 80%;
+    color: #c5c5c5;
+  }
+
+  .contact_paragraph {
+    color: #c5c5c5;
+    font-size: 12px;
+    font-family: poppins;
+  }
+
+  .contact {
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger_nav {
+    display: flex;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    height: 70px;
+  }
+  .about-section {
+    position: relative;
+  }
+  .experience-title {
+    position: relative;
+  }
+  .about-text {
+    width: 100%;
+  }
+
+  .exp {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .avatar {
+    width: 20%;
+  }
+
+  
+  #home {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  .icon-img {
+    width: 32px;
+    height: 32px;
+    padding: 20px 10px;
+  }
+
+  .experience_heading {
+  }
+  .sec_heading {
+    margin-top: 50px;
+  }
+  .my_projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+   .rectangle {
+    width: 350px;
+    height: 291px;
+    border-radius: 18px;
+    margin-top: 70px;
+    margin-left: 10px;
+    background: #2a2a2a;
+  }
+  
+  .contact_paragraph {
+    width: 100%;
+
+  }
+}
